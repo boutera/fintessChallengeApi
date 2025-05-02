@@ -28,7 +28,8 @@ public class WorkoutService {
     }
 
     public List<Workout> getAllWorkouts() {
-        return workoutRepository.findAll();
+        var a =  workoutRepository.findAll();
+        return a;
     }
 
     public List<Workout> getWorkoutsByUser(User user) {
